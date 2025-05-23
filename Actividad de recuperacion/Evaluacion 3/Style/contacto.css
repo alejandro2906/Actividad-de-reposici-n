@@ -1,0 +1,66 @@
+body{
+    background-color:white ;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+header{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgb(80, 173, 216);
+    padding: 1px;
+}
+header img{
+    width: 300px;
+    
+}
+nav{
+    background-color: ghostwhite;
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    padding: 40px;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   text-decoration: underline  red;
+}
+body {
+      font-family: sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+.contacto {
+      background: #fff;
+      padding: 15px;
+      max-width: 400px;
+      margin: auto;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+    }
+button {
+      padding: 8px 16px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+footer{
+    font-size: 20px;
+    text-align: center;
+ background-color: peru;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding: 20px;
+ margin-top: 30px;
+}

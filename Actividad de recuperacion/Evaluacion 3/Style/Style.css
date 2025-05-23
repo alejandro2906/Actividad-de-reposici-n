@@ -1,0 +1,98 @@
+body{
+    background-color:rgb(192, 218, 226) ;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    text-align: center;
+    background-color:rgb(80, 173, 216);
+    padding: 1px;
+}
+header img{
+    width: 300px;
+    
+}
+nav{
+    background-color: ghostwhite;
+    padding: 20px;
+    border: 1px solid black;
+}
+nav li{
+    display: inline;
+    padding: 40px;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   text-decoration: underline  red;
+}
+
+.div1{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+
+}
+div h2 {
+    text-align: center;
+    padding:10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+div p {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    font-size: 23px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.Seccion {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 40px; 
+}
+.Seccion p,h3 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 40px; 
+}
+
+.seccioness {
+    width: 140px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Merienda", cursive;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+.seccioness:hover{
+    background-color: rgb(144, 146, 44);
+    box-shadow: 0px 5px 15px black;
+    transform: scale(1.05);
+}
+
+.seccioness h3 {
+    color: black;
+}
+
+.seccioness img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+ background-color: white;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding: 20px;
+ margin-top: 30px;
+}
